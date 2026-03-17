@@ -3,3 +3,6 @@
 .project
 memory.json
 *.pyc
+data
+!data/example1.txt
+!data/example2.txt
