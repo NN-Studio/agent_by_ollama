@@ -41,6 +41,12 @@ python3 ./src/main.py
 
 ```md
 - data/ # 需要用到的数据
+- memory/ # 记忆数据
+    - MEMORY.md # 长期记忆：偏好、决策、持久事实
+        （可以考虑加入一个文件夹，里面包含“2026-03-18.md”等文件，
+          新会话启动时，系统会自动加载“今天+昨天”的日志，让Agent拥有最近48小时的连续感）
+    - USER.md # 用户身份
+    - SOUL.md # Agent人格设定
 - skills/ # 若干skill技能
 - src/
     - agent/ # 智能体对象
@@ -51,6 +57,7 @@ python3 ./src/main.py
     - test.py # 若干测试代码
 - requirements.txt 需要安装的依赖
 ```
+
 ## 版权
 
 MIT License

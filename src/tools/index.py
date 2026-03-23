@@ -100,6 +100,9 @@ class ToolsClass:
         if toolName == "voiceIt":
             return voiceIt(**toolArguments)
         elif toolName == "readFile":
+
+            # 实际项目应该添加判断路径是否逃逸了工作区等安全措施（涉及安全，这很重要），下同
+            # 这个项目只是一个演示，就不添加了
             return readFile(**toolArguments)
         elif toolName == "writeFile":
             return writeFile(**toolArguments)
